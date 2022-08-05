@@ -3,7 +3,7 @@ import os
 from download import download
 
 st.header('CMD')
-button_click2 = st.buttton('Download the zip File') 
+button_click2 = st.button('Download the zip File') 
 
 cmd_input = st.text_input('Enter a command')
 button_click = st.button('RUN')
